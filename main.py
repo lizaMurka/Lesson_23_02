@@ -1,6 +1,7 @@
 import random
+
 try:
-    numbers = [-1, 3, 2, 6, -4, 2, 8, -5]
+    numbers = random.sample(range(-10, 11), 10)
 
     sum_negative = 0
     for number in numbers:
